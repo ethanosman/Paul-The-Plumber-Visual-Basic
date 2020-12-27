@@ -1,6 +1,6 @@
 ﻿Class LoginForm
 
-    Private WithEvents iptForm As InputForm
+    Dim WithEvents iptForm As InputForm
 
     ' Clear form's contents
     Private Sub btnClear_Click(sender As Object, e As RoutedEventArgs) Handles btnClear.Click

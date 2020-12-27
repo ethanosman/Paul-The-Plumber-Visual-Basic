@@ -5,8 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Paul_The_Plumber___Visual_Basic"
         mc:Ignorable="d"
-        Title="Job Quote" Height="450" Width="800">
+        Title="Job Quote" Height="500" Width="600">
     <Grid>
-        
+        <TextBlock x:Name="lblJobQuote" HorizontalAlignment="Left" Margin="55,27,0,0" TextWrapping="Wrap" Text="Job Quote" VerticalAlignment="Top" FontWeight="Bold" Width="123" FontSize="24" Height="36"/>
+        <Label x:Name="lblLabour" Content="Labour = £35 Per Hour" HorizontalAlignment="Left" Margin="300,27,0,0" VerticalAlignment="Top" FontSize="13"/>
+        <Label x:Name="lblTravel" Content="Travel = £2 Per Mile" HorizontalAlignment="Left" Margin="300,57,0,0" VerticalAlignment="Top" FontSize="13"/>
+        <Label x:Name="lblPlastic" Content="Plastic Pipes  = £3 Per Meter" HorizontalAlignment="Left" Margin="300,87,0,0" VerticalAlignment="Top" FontSize="13"/>
+        <Label x:Name="lblLabourHours" Content="Labour Hours:" HorizontalAlignment="Left" Margin="55,125,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="txtLabourHours" HorizontalAlignment="Left" Height="23" Margin="220,132,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="lblTravelLength" Content="Travel Length:" HorizontalAlignment="Left" Margin="55,165,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="txtTravelLength" HorizontalAlignment="Left" Height="23" Margin="220,172,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="lblPlasticPipeLength" Content="Plastic Pipe Length:" HorizontalAlignment="Left" Margin="55,205,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="txtPlasticPipeLength" HorizontalAlignment="Left" Height="23" Margin="220,212,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="lblLabourCosts" Content="Labour Costs: £0" HorizontalAlignment="Left" Margin="55,270,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label x:Name="lblTravelCosts" Content="Travel Costs: £0" HorizontalAlignment="Left" Margin="55,310,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label x:Name="lblPlasticPipeCosts" Content="Plastic Pipe Costs: £0" HorizontalAlignment="Left" Margin="55,350,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label x:Name="lblTotalCosts" Content="Total Costs: £0" HorizontalAlignment="Left" Margin="55,390,0,0" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"/>
+        <Button x:Name="btnCalculate" Content="Calculate" HorizontalAlignment="Left" Height="43" Margin="433,140,0,0" VerticalAlignment="Top" FontWeight="Bold" Width="84"/>
+        <Button x:Name="btnClear" Content="Clear" HorizontalAlignment="Left" Height="43" Margin="433,210,0,0" VerticalAlignment="Top" FontWeight="Bold" Width="84"/>
+        <Button x:Name="btnExit" Content="Exit" HorizontalAlignment="Left" Height="43" Margin="433,280,0,0" VerticalAlignment="Top" FontWeight="Bold" Width="84"/>
     </Grid>
 </Window>
